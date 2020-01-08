@@ -55,7 +55,6 @@ function calcWave() {
 }
 
 function renderWave() {
-  // A simple way to draw the wave with an ellipse at each location
   noStroke();
   fill(250, 227, 217);
   let xmouse = map(mouseX,0,600,-20,20)
